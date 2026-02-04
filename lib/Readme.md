@@ -19,8 +19,21 @@ A simple Streamlit web application that integrates with Google’s Gemini Genera
 
 # How to Run
 
-- Activate Environment ./Scripts/Actviate.bat if Windows
+## Create Virtual Environment
+### Creating a virtual environment 
+- Navigate to your project folder
+- Create the virtual environment:
+- python -m venv venv
+### Activate virtual Environment
+- venv\Scripts\activate
+### Execute App
 - python -m streamlit run ai-app.py  to start the app
+
+### Install Dependencies
+- pip install -r requirements.txt
 
 # To check all avilable models to Use
 - python supported_models.py run this
+
+# Deactive Env when done
+- deactivate
